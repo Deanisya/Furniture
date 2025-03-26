@@ -23,7 +23,7 @@
 
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/nifontovsv/avion.git
+   git clone https://github.com/Deanisya/furnuture.git
    ```
 2. Перейдите в папку с проектом и откройте файл index.html
 3. Bоспользуйтесь расширением Live Server для запуска проекта
