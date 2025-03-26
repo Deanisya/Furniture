@@ -1,0 +1,59 @@
+.stepper {
+	display: flex;
+	background: var(--white);
+	width: 122px;
+}
+.stepper__btn {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 42px;
+	flex-shrink: 0;
+	padding: 12px 16px;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 16px;
+	color: var(--border-grey);
+	color: var(--dark-primary);
+	user-select: none;
+	transition: var(--main-trs);
+}
+.stepper__btn:disabled {
+	color: var(--border-grey);
+	pointer-events: none;
+}
+.stepper__input {
+	width: calc(100% - 84px);
+	border: none;
+	font-family: inherit;
+	font-weight: 400;
+	font-size: 16px;
+	text-align: center;
+	color: var(--dark-primary);
+	background-color: inherit;
+}
+.stepper--cart {
+	background-color: var(--light-grey);
+}
+.stepper__btn:focus {
+	outline: none;
+}
+.stepper__btn:focus-visible {
+	outline: 2px dashed var(--dark-primary);
+	outline-offset: var(--outline-offset);
+}
+.stepper__input:focus {
+	outline: none;
+}
+.stepper__input:focus-visible {
+	outline: 2px dashed var(--dark-primary);
+	outline-offset: var(--outline-offset);
+}
+@media (any-hover: hover) {
+	.stepper__btn:hover {
+		color: var(--primary);
+	}
+}
+.stepper__btn:active {
+	color: var(--border-grey);
+}
